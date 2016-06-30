@@ -3,7 +3,10 @@ use strict;
 use warnings;
 use utf8;
 use feature 'say';
-binmode(STDOUT,'utf8:');
+
+binmode(STDOUT,':utf8');
+binmode(STDERR,':utf8');
+binmode(STDIN, ':utf8');
 
 use DateTime;
 
